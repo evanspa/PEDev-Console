@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<http-response statusCode="201">
+  <annotation name="Successful Login"
+              host="example.com"
+              port="80"
+              scheme="http"
+              uri-path="/users"
+              request-method="POST">Represents a successful login.</annotation>
+  <headers>
+    <header name="Cache-Control" value="no-cache" />
+    <header name="Content-Length" value="0" />
+  </headers>
+  <cookies>
+  </cookies>
+  <body></body>
+</http-response>

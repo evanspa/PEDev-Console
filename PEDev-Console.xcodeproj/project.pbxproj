@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183635281A826C2600BD2F25 /* PDVCreateAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183635271A826C2600BD2F25 /* PDVCreateAccountController.m */; };
+		1836352B1A826C3800BD2F25 /* PDVAuthenticatedLandingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836352A1A826C3800BD2F25 /* PDVAuthenticatedLandingController.m */; };
+		1836352F1A826EC900BD2F25 /* PDVLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836352E1A826EC900BD2F25 /* PDVLoginController.m */; };
+		183635341A82C61300BD2F25 /* PEDev-Console.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 183635331A82C5C600BD2F25 /* PEDev-Console.bundle */; };
+		183635361A82CA4500BD2F25 /* application-screens in Resources */ = {isa = PBXBuildFile; fileRef = 187A62B01A81E3A100A2621F /* application-screens */; };
+		187A62701A81E17900A2621F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A626F1A81E17900A2621F /* main.m */; };
+		187A627B1A81E17900A2621F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187A627A1A81E17900A2621F /* Images.xcassets */; };
+		187A62961A81E1F500A2621F /* UIViewController+PEDevConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A62951A81E1F500A2621F /* UIViewController+PEDevConsole.m */; };
+		187A629A1A81E20B00A2621F /* PDVScreenGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A62991A81E20B00A2621F /* PDVScreenGroup.m */; };
+		187A629D1A81E21400A2621F /* PDVScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A629C1A81E21400A2621F /* PDVScreen.m */; };
+		187A62A01A81E22C00A2621F /* PDVDevConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A629F1A81E22C00A2621F /* PDVDevConsoleController.m */; };
+		187A62A31A81E23300A2621F /* PDVUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A62A21A81E23300A2621F /* PDVUtils.m */; };
+		187A62A61A81E23900A2621F /* PDVUIWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A62A51A81E23900A2621F /* PDVUIWindow.m */; };
+		187A62A91A81E24200A2621F /* PDVNotificationNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A62A81A81E24200A2621F /* PDVNotificationNames.m */; };
+		187A62AC1A81E24E00A2621F /* PDVScreenSelectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A62AB1A81E24E00A2621F /* PDVScreenSelectionController.m */; };
+		187A62AF1A81E2B000A2621F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A62AE1A81E2B000A2621F /* AppDelegate.m */; };
+		187A62B61A81E3D900A2621F /* libPEDev-Console.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0CE561A815A43004335D0 /* libPEDev-Console.a */; };
+		187A62B81A81E44B00A2621F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187A62B71A81E44B00A2621F /* Default-568h@2x.png */; };
+		CD5D5C0E77989A1EDA7E2E50 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE366ED982A956409CA2B869 /* libPods.a */; };
+		F7CA951212BDAA166EEE083C /* libPods-DemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAAB86B679465780CD2FCC07 /* libPods-DemoApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187A62B41A81E3D300A2621F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C0CE4E1A815A43004335D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C0CE551A815A43004335D0;
+			remoteInfo = "PEDev-Console";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18C0CE541A815A43004335D0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		183635261A826C2600BD2F25 /* PDVCreateAccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDVCreateAccountController.h; sourceTree = "<group>"; };
+		183635271A826C2600BD2F25 /* PDVCreateAccountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDVCreateAccountController.m; sourceTree = "<group>"; };
+		183635291A826C3800BD2F25 /* PDVAuthenticatedLandingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDVAuthenticatedLandingController.h; sourceTree = "<group>"; };
+		1836352A1A826C3800BD2F25 /* PDVAuthenticatedLandingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDVAuthenticatedLandingController.m; sourceTree = "<group>"; };
+		1836352D1A826EC900BD2F25 /* PDVLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDVLoginController.h; sourceTree = "<group>"; };
+		1836352E1A826EC900BD2F25 /* PDVLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDVLoginController.m; sourceTree = "<group>"; };
+		183635331A82C5C600BD2F25 /* PEDev-Console.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "PEDev-Console.bundle"; sourceTree = "<group>"; };
+		183635351A82C74A00BD2F25 /* PDVMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDVMacros.h; sourceTree = "<group>"; };
+		187A626B1A81E17900A2621F /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187A626E1A81E17900A2621F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187A626F1A81E17900A2621F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187A627A1A81E17900A2621F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		187A62941A81E1F500A2621F /* UIViewController+PEDevConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PEDevConsole.h"; sourceTree = "<group>"; };
+		187A62951A81E1F500A2621F /* UIViewController+PEDevConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PEDevConsole.m"; sourceTree = "<group>"; };
+		187A62971A81E20200A2621F /* PDVDevEnabled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDVDevEnabled.h; sourceTree = "<group>"; };
+		187A62981A81E20B00A2621F /* PDVScreenGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDVScreenGroup.h; sourceTree = "<group>"; };
+		187A62991A81E20B00A2621F /* PDVScreenGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDVScreenGroup.m; sourceTree = "<group>"; };
+		187A629B1A81E21400A2621F /* PDVScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDVScreen.h; sourceTree = "<group>"; };
+		187A629C1A81E21400A2621F /* PDVScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDVScreen.m; sourceTree = "<group>"; };
+		187A629E1A81E22C00A2621F /* PDVDevConsoleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDVDevConsoleController.h; sourceTree = "<group>"; };
+		187A629F1A81E22C00A2621F /* PDVDevConsoleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDVDevConsoleController.m; sourceTree = "<group>"; };
+		187A62A11A81E23300A2621F /* PDVUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDVUtils.h; sourceTree = "<group>"; };
+		187A62A21A81E23300A2621F /* PDVUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDVUtils.m; sourceTree = "<group>"; };
+		187A62A41A81E23900A2621F /* PDVUIWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDVUIWindow.h; sourceTree = "<group>"; };
+		187A62A51A81E23900A2621F /* PDVUIWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDVUIWindow.m; sourceTree = "<group>"; };
+		187A62A71A81E24200A2621F /* PDVNotificationNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDVNotificationNames.h; sourceTree = "<group>"; };
+		187A62A81A81E24200A2621F /* PDVNotificationNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDVNotificationNames.m; sourceTree = "<group>"; };
+		187A62AA1A81E24E00A2621F /* PDVScreenSelectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDVScreenSelectionController.h; sourceTree = "<group>"; };
+		187A62AB1A81E24E00A2621F /* PDVScreenSelectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDVScreenSelectionController.m; sourceTree = "<group>"; };
+		187A62AD1A81E2B000A2621F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187A62AE1A81E2B000A2621F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187A62B01A81E3A100A2621F /* application-screens */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "application-screens"; sourceTree = "<group>"; };
+		187A62B71A81E44B00A2621F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		18C0CE561A815A43004335D0 /* libPEDev-Console.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPEDev-Console.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		285D691D20617B3768DDD290 /* Pods-DemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		37C29657F0B37A8F79F92041 /* Pods-DemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		60DC6209D106B2F241B39468 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		645DC5A66B0D522AB21AF50D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BE366ED982A956409CA2B869 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAAB86B679465780CD2FCC07 /* libPods-DemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187A62681A81E17900A2621F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187A62B61A81E3D900A2621F /* libPEDev-Console.a in Frameworks */,
+				F7CA951212BDAA166EEE083C /* libPods-DemoApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C0CE531A815A43004335D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5D5C0E77989A1EDA7E2E50 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183635241A82646F00BD2F25 /* Create Account Screen */ = {
+			isa = PBXGroup;
+			children = (
+				183635261A826C2600BD2F25 /* PDVCreateAccountController.h */,
+				183635271A826C2600BD2F25 /* PDVCreateAccountController.m */,
+			);
+			name = "Create Account Screen";
+			sourceTree = "<group>";
+		};
+		183635251A82647A00BD2F25 /* Authenticating Landing Screen */ = {
+			isa = PBXGroup;
+			children = (
+				183635291A826C3800BD2F25 /* PDVAuthenticatedLandingController.h */,
+				1836352A1A826C3800BD2F25 /* PDVAuthenticatedLandingController.m */,
+			);
+			name = "Authenticating Landing Screen";
+			sourceTree = "<group>";
+		};
+		1836352C1A826EB500BD2F25 /* Login Screen */ = {
+			isa = PBXGroup;
+			children = (
+				1836352D1A826EC900BD2F25 /* PDVLoginController.h */,
+				1836352E1A826EC900BD2F25 /* PDVLoginController.m */,
+			);
+			name = "Login Screen";
+			sourceTree = "<group>";
+		};
+		183635321A82C5C600BD2F25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				183635331A82C5C600BD2F25 /* PEDev-Console.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		187A62361A81E0D500A2621F /* Custom UIWindow for Shake Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				187A62A41A81E23900A2621F /* PDVUIWindow.h */,
+				187A62A51A81E23900A2621F /* PDVUIWindow.m */,
+			);
+			name = "Custom UIWindow for Shake Gesture";
+			sourceTree = "<group>";
+		};
+		187A62371A81E0E400A2621F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				187A62A71A81E24200A2621F /* PDVNotificationNames.h */,
+				187A62A81A81E24200A2621F /* PDVNotificationNames.m */,
+				183635351A82C74A00BD2F25 /* PDVMacros.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		187A62381A81E0EA00A2621F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				187A62A11A81E23300A2621F /* PDVUtils.h */,
+				187A62A21A81E23300A2621F /* PDVUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		187A62391A81E0F200A2621F /* Console View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				187A629E1A81E22C00A2621F /* PDVDevConsoleController.h */,
+				187A629F1A81E22C00A2621F /* PDVDevConsoleController.m */,
+			);
+			name = "Console View Controller";
+			sourceTree = "<group>";
+		};
+		187A623A1A81E0FD00A2621F /* Screen Selection View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				187A62AA1A81E24E00A2621F /* PDVScreenSelectionController.h */,
+				187A62AB1A81E24E00A2621F /* PDVScreenSelectionController.m */,
+				187A62911A81E1C200A2621F /* Model */,
+			);
+			name = "Screen Selection View Controller";
+			sourceTree = "<group>";
+		};
+		187A623B1A81E10B00A2621F /* Dev-enabled Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				187A62971A81E20200A2621F /* PDVDevEnabled.h */,
+			);
+			name = "Dev-enabled Protocol";
+			sourceTree = "<group>";
+		};
+		187A623C1A81E11300A2621F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				187A62941A81E1F500A2621F /* UIViewController+PEDevConsole.h */,
+				187A62951A81E1F500A2621F /* UIViewController+PEDevConsole.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		187A626C1A81E17900A2621F /* DemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				187A62AD1A81E2B000A2621F /* AppDelegate.h */,
+				187A62AE1A81E2B000A2621F /* AppDelegate.m */,
+				1836352C1A826EB500BD2F25 /* Login Screen */,
+				183635241A82646F00BD2F25 /* Create Account Screen */,
+				183635251A82647A00BD2F25 /* Authenticating Landing Screen */,
+				187A626D1A81E17900A2621F /* Supporting Files */,
+			);
+			path = DemoApp;
+			sourceTree = "<group>";
+		};
+		187A626D1A81E17900A2621F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				187A627A1A81E17900A2621F /* Images.xcassets */,
+				187A62B01A81E3A100A2621F /* application-screens */,
+				187A62B71A81E44B00A2621F /* Default-568h@2x.png */,
+				187A626E1A81E17900A2621F /* Info.plist */,
+				187A626F1A81E17900A2621F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		187A62911A81E1C200A2621F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				187A62931A81E1CF00A2621F /* Screen */,
+				187A62921A81E1C900A2621F /* Screen Group */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		187A62921A81E1C900A2621F /* Screen Group */ = {
+			isa = PBXGroup;
+			children = (
+				187A62981A81E20B00A2621F /* PDVScreenGroup.h */,
+				187A62991A81E20B00A2621F /* PDVScreenGroup.m */,
+			);
+			name = "Screen Group";
+			sourceTree = "<group>";
+		};
+		187A62931A81E1CF00A2621F /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				187A629B1A81E21400A2621F /* PDVScreen.h */,
+				187A629C1A81E21400A2621F /* PDVScreen.m */,
+			);
+			name = Screen;
+			sourceTree = "<group>";
+		};
+		18C0CE4D1A815A43004335D0 = {
+			isa = PBXGroup;
+			children = (
+				18C0CE581A815A43004335D0 /* PEDev-Console */,
+				187A626C1A81E17900A2621F /* DemoApp */,
+				18C0CE571A815A43004335D0 /* Products */,
+				FA18DB8B467159612E87299F /* Pods */,
+				FE3F5C6D6C9AE4EAF9129470 /* Frameworks */,
+				183635321A82C5C600BD2F25 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		18C0CE571A815A43004335D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C0CE561A815A43004335D0 /* libPEDev-Console.a */,
+				187A626B1A81E17900A2621F /* DemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C0CE581A815A43004335D0 /* PEDev-Console */ = {
+			isa = PBXGroup;
+			children = (
+				187A623C1A81E11300A2621F /* Categories */,
+				187A623B1A81E10B00A2621F /* Dev-enabled Protocol */,
+				187A623A1A81E0FD00A2621F /* Screen Selection View Controller */,
+				187A62391A81E0F200A2621F /* Console View Controller */,
+				187A62381A81E0EA00A2621F /* Utils */,
+				187A62371A81E0E400A2621F /* Common */,
+				187A62361A81E0D500A2621F /* Custom UIWindow for Shake Gesture */,
+			);
+			path = "PEDev-Console";
+			sourceTree = "<group>";
+		};
+		FA18DB8B467159612E87299F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				645DC5A66B0D522AB21AF50D /* Pods.debug.xcconfig */,
+				60DC6209D106B2F241B39468 /* Pods.release.xcconfig */,
+				37C29657F0B37A8F79F92041 /* Pods-DemoApp.debug.xcconfig */,
+				285D691D20617B3768DDD290 /* Pods-DemoApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE3F5C6D6C9AE4EAF9129470 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE366ED982A956409CA2B869 /* libPods.a */,
+				CAAB86B679465780CD2FCC07 /* libPods-DemoApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187A626A1A81E17900A2621F /* DemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187A628B1A81E17900A2621F /* Build configuration list for PBXNativeTarget "DemoApp" */;
+			buildPhases = (
+				9174596984E54BE82DBC4B0A /* Check Pods Manifest.lock */,
+				187A62671A81E17900A2621F /* Sources */,
+				187A62681A81E17900A2621F /* Frameworks */,
+				187A62691A81E17900A2621F /* Resources */,
+				45BC24BE5287017C478555AD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187A62B51A81E3D300A2621F /* PBXTargetDependency */,
+			);
+			name = DemoApp;
+			productName = DemoApp;
+			productReference = 187A626B1A81E17900A2621F /* DemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C0CE551A815A43004335D0 /* PEDev-Console */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C0CE6A1A815A43004335D0 /* Build configuration list for PBXNativeTarget "PEDev-Console" */;
+			buildPhases = (
+				E7A294C6E0CD54E37BE18FB8 /* Check Pods Manifest.lock */,
+				18C0CE521A815A43004335D0 /* Sources */,
+				18C0CE531A815A43004335D0 /* Frameworks */,
+				18C0CE541A815A43004335D0 /* CopyFiles */,
+				7A8C773D76753A6A9EE38967 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PEDev-Console";
+			productName = "PEDev-Console";
+			productReference = 18C0CE561A815A43004335D0 /* libPEDev-Console.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C0CE4E1A815A43004335D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Paul Evans";
+				TargetAttributes = {
+					187A626A1A81E17900A2621F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					18C0CE551A815A43004335D0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 18C0CE511A815A43004335D0 /* Build configuration list for PBXProject "PEDev-Console" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C0CE4D1A815A43004335D0;
+			productRefGroup = 18C0CE571A815A43004335D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C0CE551A815A43004335D0 /* PEDev-Console */,
+				187A626A1A81E17900A2621F /* DemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187A62691A81E17900A2621F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183635361A82CA4500BD2F25 /* application-screens in Resources */,
+				183635341A82C61300BD2F25 /* PEDev-Console.bundle in Resources */,
+				187A627B1A81E17900A2621F /* Images.xcassets in Resources */,
+				187A62B81A81E44B00A2621F /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45BC24BE5287017C478555AD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A8C773D76753A6A9EE38967 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9174596984E54BE82DBC4B0A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7A294C6E0CD54E37BE18FB8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187A62671A81E17900A2621F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1836352B1A826C3800BD2F25 /* PDVAuthenticatedLandingController.m in Sources */,
+				1836352F1A826EC900BD2F25 /* PDVLoginController.m in Sources */,
+				183635281A826C2600BD2F25 /* PDVCreateAccountController.m in Sources */,
+				187A62AF1A81E2B000A2621F /* AppDelegate.m in Sources */,
+				187A62701A81E17900A2621F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C0CE521A815A43004335D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187A62A31A81E23300A2621F /* PDVUtils.m in Sources */,
+				187A62A01A81E22C00A2621F /* PDVDevConsoleController.m in Sources */,
+				187A62A91A81E24200A2621F /* PDVNotificationNames.m in Sources */,
+				187A629A1A81E20B00A2621F /* PDVScreenGroup.m in Sources */,
+				187A629D1A81E21400A2621F /* PDVScreen.m in Sources */,
+				187A62AC1A81E24E00A2621F /* PDVScreenSelectionController.m in Sources */,
+				187A62A61A81E23900A2621F /* PDVUIWindow.m in Sources */,
+				187A62961A81E1F500A2621F /* UIViewController+PEDevConsole.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187A62B51A81E3D300A2621F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C0CE551A815A43004335D0 /* PEDev-Console */;
+			targetProxy = 187A62B41A81E3D300A2621F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		187A628C1A81E17900A2621F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37C29657F0B37A8F79F92041 /* Pods-DemoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-DemoApp-IQKeyboardManager\"",
+					"-l\"xml2\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		187A628D1A81E17900A2621F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285D691D20617B3768DDD290 /* Pods-DemoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-DemoApp-IQKeyboardManager\"",
+					"-l\"xml2\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18C0CE681A815A43004335D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18C0CE691A815A43004335D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C0CE6B1A815A43004335D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 645DC5A66B0D522AB21AF50D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		18C0CE6C1A815A43004335D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60DC6209D106B2F241B39468 /* Pods.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187A628B1A81E17900A2621F /* Build configuration list for PBXNativeTarget "DemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187A628C1A81E17900A2621F /* Debug */,
+				187A628D1A81E17900A2621F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C0CE511A815A43004335D0 /* Build configuration list for PBXProject "PEDev-Console" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C0CE681A815A43004335D0 /* Debug */,
+				18C0CE691A815A43004335D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C0CE6A1A815A43004335D0 /* Build configuration list for PBXNativeTarget "PEDev-Console" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C0CE6B1A815A43004335D0 /* Debug */,
+				18C0CE6C1A815A43004335D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C0CE4E1A815A43004335D0 /* Project object */;
+}
