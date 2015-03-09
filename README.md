@@ -217,5 +217,5 @@ The DemoApp is a working application illustrating how to use PEDev-Console.
 ## Installation with CocoaPods
 
 ```ruby
-pod "PEDev-Console"
+pod 'PEDev-Console', '~> 1.0.1'
 ```

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "PEDev-Console"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.license      = "MIT"
   s.summary      = "An iOS static library to aid in the development of iOS apps."
   s.author       = { "Paul Evans" => "evansp2@gmail.com" }
@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.exclude_files = "**/*Tests/*.*", "**/DemoApp/*"
   s.requires_arc = true
   s.resource = "Resources/#{s.name}.bundle"
-  s.dependency 'PEObjc-Commons'
-  s.dependency 'PESimu-Select'
+  s.dependency 'PEObjc-Commons', '~> 1.0.1'
+  s.dependency 'PESimu-Select', '~> 1.0.1'
 end
