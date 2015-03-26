@@ -8,6 +8,14 @@ application that enables you to jump to any screen of your application
 instantly.  It also includes the functionality of [PESimu-Select](https://github.com/evanspa/PESimu-Select) in order to
 enable HTTP response simulations.
 
+**Table of Contents**
+
+- [Motivation](#motivation)
+- [Setup Guide](#setup-guide)
+- [Screenshots](#screenshots)
+- [Demo Application](#demo-application)
+- [Installation with CocoaPods](#installation-with-cocoapods)
+
 ## Motivation
 
 When developing an iOS application, the development of view controllers in
