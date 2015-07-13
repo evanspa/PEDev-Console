@@ -37,13 +37,11 @@
                                          font:[UIFont systemFontOfSize:30]
                               backgroundColor:[UIColor clearColor]
                                     textColor:[UIColor whiteColor]
-                        horizontalTextPadding:15
                           verticalTextPadding:15];
   UILabel *shakeMessage = [PEUIUtils labelWithKey:@"(shake to show dev console)"
                                              font:[UIFont systemFontOfSize:20]
                                   backgroundColor:[UIColor clearColor]
                                         textColor:[UIColor whiteColor]
-                            horizontalTextPadding:15
                               verticalTextPadding:15];
   [[self view] setBackgroundColor:[UIColor orangeColor]];
   [PEUIUtils placeView:appTitle
