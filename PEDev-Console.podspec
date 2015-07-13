@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "PEDev-Console"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.license      = "MIT"
   s.summary      = "An iOS static library to aid in the development of iOS apps."
   s.author       = { "Paul Evans" => "evansp2@gmail.com" }
