@@ -55,7 +55,7 @@
   [super viewDidLoad];
   PEUIToolkit *uitoolkit = [self defaultUIToolkit];
   [[self view] setBackgroundColor:[uitoolkit colorForWindows]];
-  ButtonMaker btnMaker = [uitoolkit primaryButtonMaker];
+  ButtonMaker btnMaker = [uitoolkit systemButtonMaker];
   [[self view] setBackgroundColor:[UIColor lightGrayColor]];
   UIButton *screensBtn = btnMaker(PDVLS(@"devconsole.screens.btn.txt"), self, @selector(presentScreens));
   [PEUIUtils placeView:screensBtn
@@ -86,37 +86,21 @@
 #pragma mark - UI Toolkit maker
 
 - (PEUIToolkit *)defaultUIToolkit {
-  return [[PEUIToolkit alloc]
-           initWithColorForContentPanels:nil
-              colorForNotificationPanels:[UIColor orangeColor]
-                         colorForWindows:nil
-           topBottomPaddingForContentPanels:15
-                             accentColor:nil
-                          fontForButtons:[UIFont systemFontOfSize:[UIFont buttonFontSize]]
-                  cornerRadiusForButtons:3
-               verticalPaddingForButtons:10
-             horizontalPaddingForButtons:20
-                bgColorForWarningButtons:[UIColor yellowColor]
-              textColorForWarningButtons:[UIColor whiteColor]
-                bgColorForPrimaryButtons:[UIColor blueColor]
-              textColorForPrimaryButtons:[UIColor whiteColor]
-                 bgColorForDangerButtons:[UIColor redColor]
-               textColorForDangerButtons:[UIColor whiteColor]
-                    fontForHeader1Labels:[UIFont boldSystemFontOfSize:24]
-                   colorForHeader1Labels:[UIColor whiteColor]
-                   fontForHeaders2Labels:[UIFont boldSystemFontOfSize:18]
-                   colorForHeader2Labels:[UIColor whiteColor]
-                       fontForTextfields:[UIFont systemFontOfSize:16]
-                      colorForTextfields:[UIColor whiteColor]
-               heightFactorForTextfields:1.75
-            leftViewPaddingForTextfields:10
-                  fontForTableCellTitles:[UIFont systemFontOfSize:16]
-                 colorForTableCellTitles:[UIColor blackColor]
-               fontForTableCellSubtitles:[UIFont systemFontOfSize:12]
-              colorForTableCellSubtitles:[UIColor grayColor]
-               durationForFrameAnimation:0.5
-             durationForFadeOutAnimation:1.5
-              downToYForFromTopAnimation:40];
+  return [[PEUIToolkit alloc] initWithColorForContentPanels:nil
+                                            colorForWindows:nil
+                           topBottomPaddingForContentPanels:15
+                                                accentColor:nil
+                                          fontForButtonsBlk:^{ return [UIFont systemFontOfSize:[UIFont buttonFontSize]]; }
+                                  verticalPaddingForButtons:10
+                                horizontalPaddingForButtons:20
+                                       fontForTextfieldsBlk:^{ return [UIFont systemFontOfSize:16]; }
+                                         colorForTextfields:[UIColor whiteColor]
+                                  heightFactorForTextfields:1.75
+                               leftViewPaddingForTextfields:10
+                                  fontForTableCellTitlesBlk:^{ return [UIFont systemFontOfSize:16]; }
+                                    colorForTableCellTitles:[UIColor blackColor]
+                               fontForTableCellSubtitlesBlk:^{ return [UIFont systemFontOfSize:12]; }
+                                 colorForTableCellSubtitles:[UIColor grayColor]];
 }
 
 @end

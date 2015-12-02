@@ -23,7 +23,7 @@
 
 #import <PEObjc-Commons/PEUIUtils.h>
 #import "AppDelegate.h"
-#import "IQKeyboardManager.h"
+#import <IQKeyboardManager/IQKeyboardManager.h>
 #import "PDVUtils.h"
 #import "PDVScreenGroup.h"
 #import "PDVUIWindow.h"

@@ -230,7 +230,7 @@ The DemoApp is a working application illustrating how to use PEDev-Console.
 ## Installation with CocoaPods
 
 ```ruby
-pod 'PEDev-Console', '~> 1.0.4'
+pod 'PEDev-Console', '~> 1.0.5'
 ```
 
 ## PE* iOS Library Suite
@@ -249,4 +249,3 @@ pod 'PEDev-Console', '~> 1.0.4'
 + **[PESimu-Select](https://github.com/evanspa/PESimu-Select)**: a library
   aiding in the functional testing of web service enabled iOS applications.
 + **PEDev-Console**: this library.
-

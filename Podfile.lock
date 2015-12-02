@@ -1,37 +1,51 @@
 PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
   - IQKeyboardManager (3.2.1.2)
-  - JGActionSheet (1.0.4)
   - KissXML (5.0)
   - OHHTTPStubs (3.1.12):
     - OHHTTPStubs/Core (= 3.1.12)
   - OHHTTPStubs/Core (3.1.12)
-  - PEObjc-Commons (1.0.20):
-    - JGActionSheet (~> 1.0.4)
-  - PESimu-Select (1.0.3):
-    - PEObjc-Commons (~> 1.0.20)
-    - PEWire-Control (~> 1.0.2)
-  - PEWire-Control (1.0.2):
+  - PEObjc-Commons (1.0.89):
+    - BlocksKit (~> 2.2.5)
+  - PESimu-Select (1.0.4):
+    - PEObjc-Commons (~> 1.0.86)
+    - PEWire-Control (~> 1.0.5)
+  - PEWire-Control (1.0.5):
     - KissXML (~> 5.0)
     - OHHTTPStubs (~> 3.1.10)
-    - PEObjc-Commons (~> 1.0.8)
-    - PEXML-Utils (~> 1.0.1)
-  - PEXML-Utils (1.0.1):
+    - PEObjc-Commons (~> 1.0.86)
+    - PEXML-Utils (~> 1.0.4)
+  - PEXML-Utils (1.0.4):
     - KissXML (~> 5.0)
-    - PEObjc-Commons (~> 1.0.1)
+    - PEObjc-Commons (~> 1.0.86)
 
 DEPENDENCIES:
   - IQKeyboardManager (~> 3.2.1.1)
-  - PEObjc-Commons (~> 1.0.20)
-  - PESimu-Select (~> 1.0.3)
+  - PEObjc-Commons (~> 1.0.89)
+  - PESimu-Select (~> 1.0.4)
 
 SPEC CHECKSUMS:
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   IQKeyboardManager: 4adcd7cc9c17440a7cb74755f6f6c8389919c6bf
-  JGActionSheet: 7c6a947dca93a5c6031032ab76e157b19087d593
   KissXML: ce643413d618ad69886d0d43c3792b7dedfe476e
   OHHTTPStubs: 8cf0cfe6f34f13fc88fdf5b2a1b2c2536e8c0261
-  PEObjc-Commons: b886fe99a6f414fa420809681d9b5513cab614b0
-  PESimu-Select: 9ad38adb78e42e79c9f9365f71c9b05215b6ac10
-  PEWire-Control: 2aeefa4014575adbc52cfbf3206395d9a7c07b22
-  PEXML-Utils: f7e0759b8e4e2ec3a39c781b362d7fb233fc8421
+  PEObjc-Commons: 7d4ba895693fdef52d5cbddc49eb6b8a60474fd7
+  PESimu-Select: 88e3ab14e1b9e0f75e9b626103581bd488128674
+  PEWire-Control: c2d18d4261d025182513466da9c6ed80e596f526
+  PEXML-Utils: d36d0ab7337b92c120ec49b84f99e7b923bf8a24
 
-COCOAPODS: 0.37.2
+COCOAPODS: 0.39.0

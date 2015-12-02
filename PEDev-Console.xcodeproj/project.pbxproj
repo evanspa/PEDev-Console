@@ -25,8 +25,15 @@
 		187A62AF1A81E2B000A2621F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A62AE1A81E2B000A2621F /* AppDelegate.m */; };
 		187A62B61A81E3D900A2621F /* libPEDev-Console.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0CE561A815A43004335D0 /* libPEDev-Console.a */; };
 		187A62B81A81E44B00A2621F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187A62B71A81E44B00A2621F /* Default-568h@2x.png */; };
+		CA6C314C1C0E916400A70235 /* libPEObjc-Commons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6C314B1C0E916400A70235 /* libPEObjc-Commons.a */; };
+		CA6C314E1C0E91D900A70235 /* libPESimu-Select.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6C314D1C0E91D900A70235 /* libPESimu-Select.a */; };
+		CA6C31501C0E91E900A70235 /* libPEWire-Control.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6C314F1C0E91E900A70235 /* libPEWire-Control.a */; };
+		CA6C31561C0E91FB00A70235 /* libBlocksKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6C31511C0E91FB00A70235 /* libBlocksKit.a */; };
+		CA6C31571C0E91FB00A70235 /* libIQKeyboardManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6C31521C0E91FB00A70235 /* libIQKeyboardManager.a */; };
+		CA6C31581C0E91FB00A70235 /* libKissXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6C31531C0E91FB00A70235 /* libKissXML.a */; };
+		CA6C31591C0E91FB00A70235 /* libOHHTTPStubs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6C31541C0E91FB00A70235 /* libOHHTTPStubs.a */; };
+		CA6C315A1C0E91FB00A70235 /* libPEXML-Utils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6C31551C0E91FB00A70235 /* libPEXML-Utils.a */; };
 		CD5D5C0E77989A1EDA7E2E50 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE366ED982A956409CA2B869 /* libPods.a */; };
-		F7CA951212BDAA166EEE083C /* libPods-DemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAAB86B679465780CD2FCC07 /* libPods-DemoApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +98,16 @@
 		60DC6209D106B2F241B39468 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		645DC5A66B0D522AB21AF50D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		BE366ED982A956409CA2B869 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6C31471C0E90AF00A70235 /* DemoApp.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DemoApp.debug.xcconfig; sourceTree = "<group>"; };
+		CA6C31481C0E90AF00A70235 /* DemoApp.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DemoApp.release.xcconfig; sourceTree = "<group>"; };
+		CA6C314B1C0E916400A70235 /* libPEObjc-Commons.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPEObjc-Commons.a"; path = "Pods/../build/Debug-iphoneos/libPEObjc-Commons.a"; sourceTree = "<group>"; };
+		CA6C314D1C0E91D900A70235 /* libPESimu-Select.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPESimu-Select.a"; path = "Pods/../build/Debug-iphoneos/libPESimu-Select.a"; sourceTree = "<group>"; };
+		CA6C314F1C0E91E900A70235 /* libPEWire-Control.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPEWire-Control.a"; path = "Pods/../build/Debug-iphoneos/libPEWire-Control.a"; sourceTree = "<group>"; };
+		CA6C31511C0E91FB00A70235 /* libBlocksKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBlocksKit.a; path = "Pods/../build/Debug-iphoneos/libBlocksKit.a"; sourceTree = "<group>"; };
+		CA6C31521C0E91FB00A70235 /* libIQKeyboardManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIQKeyboardManager.a; path = "Pods/../build/Debug-iphoneos/libIQKeyboardManager.a"; sourceTree = "<group>"; };
+		CA6C31531C0E91FB00A70235 /* libKissXML.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKissXML.a; path = "Pods/../build/Debug-iphoneos/libKissXML.a"; sourceTree = "<group>"; };
+		CA6C31541C0E91FB00A70235 /* libOHHTTPStubs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOHHTTPStubs.a; path = "Pods/../build/Debug-iphoneos/libOHHTTPStubs.a"; sourceTree = "<group>"; };
+		CA6C31551C0E91FB00A70235 /* libPEXML-Utils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPEXML-Utils.a"; path = "Pods/../build/Debug-iphoneos/libPEXML-Utils.a"; sourceTree = "<group>"; };
 		CAAB86B679465780CD2FCC07 /* libPods-DemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -99,8 +116,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA6C31561C0E91FB00A70235 /* libBlocksKit.a in Frameworks */,
+				CA6C31571C0E91FB00A70235 /* libIQKeyboardManager.a in Frameworks */,
+				CA6C31581C0E91FB00A70235 /* libKissXML.a in Frameworks */,
+				CA6C31591C0E91FB00A70235 /* libOHHTTPStubs.a in Frameworks */,
+				CA6C315A1C0E91FB00A70235 /* libPEXML-Utils.a in Frameworks */,
+				CA6C31501C0E91E900A70235 /* libPEWire-Control.a in Frameworks */,
+				CA6C314E1C0E91D900A70235 /* libPESimu-Select.a in Frameworks */,
+				CA6C314C1C0E916400A70235 /* libPEObjc-Commons.a in Frameworks */,
 				187A62B61A81E3D900A2621F /* libPEDev-Console.a in Frameworks */,
-				F7CA951212BDAA166EEE083C /* libPods-DemoApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +254,8 @@
 		187A626D1A81E17900A2621F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CA6C31471C0E90AF00A70235 /* DemoApp.debug.xcconfig */,
+				CA6C31481C0E90AF00A70235 /* DemoApp.release.xcconfig */,
 				187A627A1A81E17900A2621F /* Images.xcassets */,
 				187A62B01A81E3A100A2621F /* application-screens */,
 				187A62B71A81E44B00A2621F /* Default-568h@2x.png */,
@@ -315,6 +341,14 @@
 		FE3F5C6D6C9AE4EAF9129470 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CA6C31511C0E91FB00A70235 /* libBlocksKit.a */,
+				CA6C31521C0E91FB00A70235 /* libIQKeyboardManager.a */,
+				CA6C31531C0E91FB00A70235 /* libKissXML.a */,
+				CA6C31541C0E91FB00A70235 /* libOHHTTPStubs.a */,
+				CA6C31551C0E91FB00A70235 /* libPEXML-Utils.a */,
+				CA6C314F1C0E91E900A70235 /* libPEWire-Control.a */,
+				CA6C314D1C0E91D900A70235 /* libPESimu-Select.a */,
+				CA6C314B1C0E916400A70235 /* libPEObjc-Commons.a */,
 				BE366ED982A956409CA2B869 /* libPods.a */,
 				CAAB86B679465780CD2FCC07 /* libPods-DemoApp.a */,
 			);
@@ -328,11 +362,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 187A628B1A81E17900A2621F /* Build configuration list for PBXNativeTarget "DemoApp" */;
 			buildPhases = (
-				9174596984E54BE82DBC4B0A /* Check Pods Manifest.lock */,
 				187A62671A81E17900A2621F /* Sources */,
 				187A62681A81E17900A2621F /* Frameworks */,
 				187A62691A81E17900A2621F /* Resources */,
-				45BC24BE5287017C478555AD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -369,7 +401,7 @@
 		18C0CE4E1A815A43004335D0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Paul Evans";
 				TargetAttributes = {
 					187A626A1A81E17900A2621F = {
@@ -414,21 +446,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		45BC24BE5287017C478555AD /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7A8C773D76753A6A9EE38967 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -442,21 +459,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9174596984E54BE82DBC4B0A /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E7A294C6E0CD54E37BE18FB8 /* Check Pods Manifest.lock */ = {
@@ -517,38 +519,48 @@
 /* Begin XCBuildConfiguration section */
 		187A628C1A81E17900A2621F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37C29657F0B37A8F79F92041 /* Pods-DemoApp.debug.xcconfig */;
+			baseConfigurationReference = CA6C31471C0E90AF00A70235 /* DemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = DemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
-					"-l\"Pods-DemoApp-IQKeyboardManager\"",
 					"-l\"xml2\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "name.paulevans.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		187A628D1A81E17900A2621F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 285D691D20617B3768DDD290 /* Pods-DemoApp.release.xcconfig */;
+			baseConfigurationReference = CA6C31481C0E90AF00A70235 /* DemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = DemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
-					"-l\"Pods-DemoApp-IQKeyboardManager\"",
 					"-l\"xml2\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "name.paulevans.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -572,6 +584,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -586,7 +599,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -620,7 +633,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

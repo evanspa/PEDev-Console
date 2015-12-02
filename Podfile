@@ -1,10 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '8.3'
+platform :ios, '8.0'
 
-pod 'PEObjc-Commons', '~> 1.0.20'
-pod 'PESimu-Select', '~> 1.0.3'
-
-target :'DemoApp',:exclusive => true do
-  pod 'IQKeyboardManager', '~> 3.2.1.1'
-end
+pod 'PEObjc-Commons', '~> 1.0.89'
+pod 'PESimu-Select', '~> 1.0.4'
+pod 'IQKeyboardManager', '~> 3.2.1.1'
